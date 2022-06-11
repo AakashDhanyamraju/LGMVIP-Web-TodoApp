@@ -1,0 +1,161 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+    color: whitesmoke;
+}
+
+
+
+.container{
+   /* background-color: #8D3DAF; */
+background-color: #130f40;
+    text-align: center;
+
+
+
+
+
+}
+.heading{
+    
+    padding: 50px;
+    color: black;
+    background-color: white;
+
+
+}
+
+.todo-items{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    display: inline-block;
+    
+
+}
+
+
+.btnlab{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 30px; */
+
+
+}
+.alltasks{
+
+    /* padding: 50px; */
+    display: flex;
+    /* padding-right: 20px; */
+    flex-direction: row;
+    justify-content:space-between;
+    
+
+    
+
+}
+
+.tasksOnGoing{
+    
+    
+
+    
+    align-items: baseline ;
+    padding-left: 500px;
+    
+
+    
+}
+
+
+.completedItems{
+    
+    padding-right: 500px;
+    bottom: 100px;
+
+
+
+
+
+}
+
+
+input{
+
+    padding: 15px;
+    padding-bottom: 17px;
+    outline: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+input:focus {
+    padding: auto;
+}
+
+.addbtn{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 20px 14px;
+    text-decoration: none;
+    
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+label{
+    padding: 20px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+.wrong{
+    color: white;
+    background-color: red;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    margin: 4px 2px;
+
+
+
+}
+
+.right{
+    color:white;
+    background-color: #04AA6D;
+    border: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    margin: 4px 2px;
+
+}
+.buttons{
+    padding: 7px;
+    
+
+    align-items: center;
+
+
+}
+
+h2{
+    padding: 15px;
+    text-decoration:underline;
+    letter-spacing: 2px;
+    position:static;
+}
+.completedText{
+    text-decoration: line-through;
+}
